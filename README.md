@@ -7,7 +7,9 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Integrate [Directus](https://directus.io/) to your [Nuxt](https://nuxt.com/) application.
+A [Dockerized](https://www.docker.com/) setup for running [Nuxt](https://nuxt.com/)&[Directus](https://directus.io/) ([nuxt-directus](https://github.com/Intevel/nuxt-directus)).
+
+Integrate  to your  application.
 
 - [✨ &nbsp;Release Notes](https://github.com/directus-community/nuxt-directus/releases)
 - [📖 &nbsp;Read the documentation](https://nuxt-directus.site/)
@@ -21,11 +23,11 @@ Integrate [Directus](https://directus.io/) to your [Nuxt](https://nuxt.com/) app
 
 ## Setup
 
-```sh
-yarn add nuxt-directus # yarn
-npm i nuxt-directus # npm
+1. Clone the repository:
+```bash
+git clone https://github.com/srjrol/nuxt-directus-docker.git
+cd nuxt-directus-docker
 ```
-
 ## Basic usage
 
 Add `nuxt-directus` to your Nuxt config:
