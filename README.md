@@ -1,26 +1,23 @@
 # Nuxt-Directus Dockerized Deployment
 
-[![Nuxt Directus Docker](https://raw.githubusercontent.com/srjrol/nuxt-directus-docker/main/docs/public/cover.png)](https://nuxt-directus.site/)
-
 Forked from [Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus), this project dockerizes the Nuxt-Directus application for easy deployment.
-
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
 
 ## Features
 
-- Dockerized Deployment: Simplifies the setup and deployment process.
-- [Directus Integration](https://github.com/directus/directus): Open-source headless CMS and API.
-- [Nuxt Devtools](https://github.com/nuxt/devtools): Debugging tools for Nuxt.js.
-- [Nuxt UI](https://github.com/nuxt/ui): A UI Kit for building Nuxt modules and projects.
-- RESTful methods: Convenient way to access or update resources on the server.
-- TypeScript Support: Ensures type safety in your project.
-- Nuxt 3 Ready: Compatible with the latest version of Nuxt.
-- Comprehensive Environment Variables: Easily configure your app settings.
-- [ufo](https://github.com/unjs/ufo): Utilities to work with URLs across Nuxt projects.
+| Feature                             | Description                                                   |
+|-------------------------------------|---------------------------------------------------------------|
+| 🐳 Dockerized Deployment            | Simplifies the setup and deployment process.                  |
+| 🐰 [Directus Integration](https://github.com/directus/directus) | Open-source headless CMS and API.           |
+| 🛠️ [Nuxt Devtools](https://github.com/nuxt/devtools)       | Debugging tools for Nuxt.js.                                  |
+| 🖥️ [Nuxt UI](https://github.com/nuxt/ui)                 | A UI Kit for building Nuxt modules and projects.             |
+| 🌗 [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)                 | Dark and Light mode with auto detection.             |
+| 🍬 [Nuxt Color Mode](https://github.com/nuxt-modules/color-mode)                 | Add Tailwind CSS to your Nuxt Applications.             |
+| 🔗 RESTful methods                  | Convenient way to access or update resources on the server.  |
+| 📜 TypeScript Support               | Ensures type safety in your project.                          |
+| 🚀 Nuxt 3 Ready                     | Compatible with the latest version of Nuxt.                   |
+| 🔑 Environment Variables            | Easily configure your app settings.                           |
+| 🛸 [ufo](https://github.com/unjs/ufo)                    | Utilities to work with URLs across Nuxt projects.            |
 
-With these added features, the Docker setup not only streamlines the deployment process but also brings in powerful tools and integrations to enhance the development experience.
-## Environment Setup
 
 1. Clone the repository:
    ```bash
@@ -42,10 +39,8 @@ With these added features, the Docker setup not only streamlines the deployment 
    ```
 
 2. Access the application:
-   - Nuxt App: `http://localhost:3000`
-   - Directus Admin: `http://localhost:8055`
-
-## Environment Variables
+   - 🚀 Nuxt App: `http://localhost:3000`
+   - 🐰 Directus Admin: `http://localhost:8055`
 
 ## Environment Variables Reference Table
 
@@ -65,6 +60,27 @@ With these added features, the Docker setup not only streamlines the deployment 
 | `NUXT_PUBLIC_DIRECTUS_URL`                     | Public Directus URL for Nuxt                                  |
 | `NUXT_PUBLIC_API_BASE`                         | Public API base URL for Nuxt                                  |
 
+## Integrate  to your  application.
+
+- [✨ &nbsp;Release Notes](https://github.com/directus-community/nuxt-directus/releases)
+- [📖 &nbsp;Read the documentation](https://nuxt-directus.site/)
+
+## Features
+
+- Nuxt 3 ready
+- Handle authentication
+- RESTful methods
+- TypeScript Support
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/srjrol/nuxt-directus-docker.git
+cd nuxt-directus-docker
+```
+
+## Basic usage
 
 ## Development
 
@@ -95,8 +111,3 @@ Copyright (c) 2022 Sean Jennings, originally developed by Conner Luka Bachmann
 
 - Repository: [https://github.com/srjrol/nuxt-directus-docker](https://github.com/srjrol/nuxt-directus-docker)
 - Forked From: [https://github.com/Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus)
-
-[license-src]: https://img.shields.io/npm/l/nuxt-directus.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-directus
-[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
-[nuxt-href]: https://nuxt.com
