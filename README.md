@@ -45,8 +45,6 @@ With these added features, the Docker setup not only streamlines the deployment 
    - Nuxt App: `http://localhost:3000`
    - Directus Admin: `http://localhost:8055`
 
-## Environment Variables
-
 ## Environment Variables Reference Table
 
 | Variable                                       | Description                                                   |
@@ -64,7 +62,29 @@ With these added features, the Docker setup not only streamlines the deployment 
 | `API_URL`                                      | API URL for Nuxt                                              |
 | `NUXT_PUBLIC_DIRECTUS_URL`                     | Public Directus URL for Nuxt                                  |
 | `NUXT_PUBLIC_API_BASE`                         | Public API base URL for Nuxt                                  |
+=======
+A [Dockerized](https://www.docker.com/) setup for running [Nuxt](https://nuxt.com/)&[Directus](https://directus.io/) ([nuxt-directus](https://github.com/Intevel/nuxt-directus)).
 
+Integrate  to your  application.
+
+- [✨ &nbsp;Release Notes](https://github.com/directus-community/nuxt-directus/releases)
+- [📖 &nbsp;Read the documentation](https://nuxt-directus.site/)
+
+## Features
+
+- Nuxt 3 ready
+- Handle authentication
+- RESTful methods
+- TypeScript Support
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/srjrol/nuxt-directus-docker.git
+cd nuxt-directus-docker
+```
+## Basic usage
 
 ## Development
 
@@ -95,8 +115,3 @@ Copyright (c) 2022 Sean Jennings, originally developed by Conner Luka Bachmann
 
 - Repository: [https://github.com/srjrol/nuxt-directus-docker](https://github.com/srjrol/nuxt-directus-docker)
 - Forked From: [https://github.com/Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus)
-
-[license-src]: https://img.shields.io/npm/l/nuxt-directus.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-directus
-[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
-[nuxt-href]: https://nuxt.com
