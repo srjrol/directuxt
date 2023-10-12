@@ -4,18 +4,18 @@ Forked from [Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus), t
 
 ## Features
 
-- Dockerized Deployment: Simplifies the setup and deployment process.
-- [Directus Integration](https://github.com/directus/directus): Open-source headless CMS and API.
-- [Nuxt Devtools](https://github.com/nuxt/devtools): Debugging tools for Nuxt.js.
-- [Nuxt UI](https://github.com/nuxt/ui): A UI Kit for building Nuxt modules and projects.
-- RESTful methods: Convenient way to access or update resources on the server.
-- TypeScript Support: Ensures type safety in your project.
-- Nuxt 3 Ready: Compatible with the latest version of Nuxt.
-- Comprehensive Environment Variables: Easily configure your app settings.
-- [ufo](https://github.com/unjs/ufo): Utilities to work with URLs across Nuxt projects.
+| Feature                             | Description                                                   |
+|-------------------------------------|---------------------------------------------------------------|
+| 🐳 Dockerized Deployment            | Simplifies the setup and deployment process.                  |
+| 🐰 [Directus Integration](https://github.com/directus/directus) | Open-source headless CMS and API.           |
+| 🛠️ [Nuxt Devtools](https://github.com/nuxt/devtools)       | Debugging tools for Nuxt.js.                                  |
+| 🖥️ [Nuxt UI](https://github.com/nuxt/ui)                 | A UI Kit for building Nuxt modules and projects.             |
+| 🔗 RESTful methods                  | Convenient way to access or update resources on the server.  |
+| 📜 TypeScript Support               | Ensures type safety in your project.                          |
+| 🚀 Nuxt 3 Ready                     | Compatible with the latest version of Nuxt.                   |
+| 🔑 Environment Variables            | Easily configure your app settings.                           |
+| 🛸 [ufo](https://github.com/unjs/ufo)                    | Utilities to work with URLs across Nuxt projects.            |
 
-With these added features, the Docker setup not only streamlines the deployment process but also brings in powerful tools and integrations to enhance the development experience.
-## Environment Setup
 
 1. Clone the repository:
    ```bash
@@ -37,8 +37,8 @@ With these added features, the Docker setup not only streamlines the deployment 
    ```
 
 2. Access the application:
-   - Nuxt App: `http://localhost:3000`
-   - Directus Admin: `http://localhost:8055`
+   - 🚀 Nuxt App: `http://localhost:3000`
+   - 🐰 Directus Admin: `http://localhost:8055`
 
 ## Environment Variables Reference Table
 
