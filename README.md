@@ -62,8 +62,7 @@ With these added features, the Docker setup not only streamlines the deployment 
 | `API_URL`                                      | API URL for Nuxt                                              |
 | `NUXT_PUBLIC_DIRECTUS_URL`                     | Public Directus URL for Nuxt                                  |
 | `NUXT_PUBLIC_API_BASE`                         | Public API base URL for Nuxt                                  |
-=======
-A [Dockerized](https://www.docker.com/) setup for running [Nuxt](https://nuxt.com/)&[Directus](https://directus.io/) ([nuxt-directus](https://github.com/Intevel/nuxt-directus)).
+=====================================================================================================================
 
 Integrate  to your  application.
 
@@ -84,6 +83,7 @@ Integrate  to your  application.
 git clone https://github.com/srjrol/nuxt-directus-docker.git
 cd nuxt-directus-docker
 ```
+
 ## Basic usage
 
 ## Development
