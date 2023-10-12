@@ -4,20 +4,19 @@ Forked from [Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus), t
 
 ## Features
 
-| Feature                             | Description                                                   |
-|-------------------------------------|---------------------------------------------------------------|
-| 🐳 Dockerized Deployment            | Simplifies the setup and deployment process.                  |
-| 🐰 [Directus Integration](https://github.com/directus/directus) | Open-source headless CMS and API.           |
-| 🛠️ [Nuxt Devtools](https://github.com/nuxt/devtools)       | Debugging tools for Nuxt.js.                                  |
-| 🖥️ [Nuxt UI](https://github.com/nuxt/ui)                 | A UI Kit for building Nuxt modules and projects.             |
-| 🌗 [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)                 | Dark and Light mode with auto detection.             |
-| 🍬 [Nuxt Color Mode](https://github.com/nuxt-modules/color-mode)                 | Add Tailwind CSS to your Nuxt Applications.             |
-| 🔗 RESTful methods                  | Convenient way to access or update resources on the server.  |
-| 📜 TypeScript Support               | Ensures type safety in your project.                          |
-| 🚀 Nuxt 3 Ready                     | Compatible with the latest version of Nuxt.                   |
-| 🔑 Environment Variables            | Easily configure your app settings.                           |
-| 🛸 [ufo](https://github.com/unjs/ufo)                    | Utilities to work with URLs across Nuxt projects.            |
-
+| Feature                                                         | Description                                                   |
+|-----------------------------------------------------------------|---------------------------------------------------------------|
+| 🐳 Dockerized Deployment                                        | Simplifies the setup and deployment process.                  |
+| 🐰 [Directus Integration](https://github.com/directus/directus) | Open-source headless CMS and API.                             |
+| 🛠️ [Nuxt Devtools](https://github.com/nuxt/devtools)           | Debugging tools for Nuxt.js.                                  |
+| 🖥️ [Nuxt UI](https://github.com/nuxt/ui)                       | A UI Kit for building Nuxt modules and projects.             |
+| 🍬 [Tailwind CSS](https://github.com/nuxt-modules/tailwindcss)  | Add Tailwind CSS to your Nuxt Applications.                  |
+| 🌗 [Nuxt Color Mode](https://github.com/nuxt-modules/color-mode)| Dark and Light mode with auto detection.                     |
+| 🛸 [ufo](https://github.com/unjs/ufo)                          | Utilities to work with URLs across Nuxt projects.            |
+| 📜 [TypeScript Support](https://github.com/microsoft/TypeScript)| Ensures type safety in your project.                          |
+| 🚀 [Nuxt 3](https://github.com/nuxt/nuxt)                      | Compatible with the latest version of Nuxt.                   |
+| 🔗 RESTful methods                                              | Convenient way to access or update resources on the server.  |
+| 🔑 Environment Variables                                        | Easily configure your app settings.                           |
 
 1. Clone the repository:
    ```bash
