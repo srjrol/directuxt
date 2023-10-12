@@ -1,7 +1,5 @@
 # Nuxt-Directus Dockerized Deployment
 
-[![Nuxt Directus Docker](https://raw.githubusercontent.com/srjrol/nuxt-directus-docker/main/docs/public/cover.png)](https://nuxt-directus.site/)
-
 Forked from [Intevel/nuxt-directus](https://github.com/Intevel/nuxt-directus), this project dockerizes the Nuxt-Directus application for easy deployment.
 
 [![License][license-src]][license-href]
@@ -62,7 +60,6 @@ With these added features, the Docker setup not only streamlines the deployment 
 | `API_URL`                                      | API URL for Nuxt                                              |
 | `NUXT_PUBLIC_DIRECTUS_URL`                     | Public Directus URL for Nuxt                                  |
 | `NUXT_PUBLIC_API_BASE`                         | Public API base URL for Nuxt                                  |
-=====================================================================================================================
 
 Integrate  to your  application.
 
